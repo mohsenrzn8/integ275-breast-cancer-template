@@ -1,4 +1,4 @@
-# INTEG 275 — Final AI-for-Science Challenge: {TOPIC NAME}
+# INTEG 275 — Final AI-for-Science Challenge: AI for Breast Cancer Diagnosis
 
 This repository is the starting point for your group's final project.
 Unlike the warm-up exercise, there is no single correct answer here.
@@ -12,7 +12,7 @@ working routine.
 ## What's in this repository
 
 ```
-{your topic's CSV data file(s)}  the dataset (see "About the data")
+breast_cancer_diagnostic.csv     the dataset (see "About the data")
 AGENTS.md                        instructions Copilot reads automatically
 ANALYSIS_LOG.md                  your group's shared record of decisions
                                  and results — you will edit this often
@@ -220,12 +220,12 @@ Keep the repository **Private**. Do not share it with other groups.
 
 ## About the data
 
-{Replace this section for each topic.}
+## About the data
 
-- **Dataset:**
-- **Source and link:**
-- **Collected by / citation:**
-- **Licence or terms of use:**
+- **Dataset:** Breast Cancer Wisconsin (Diagnostic) — `breast_cancer_diagnostic.csv`. Contains 569 samples, 30 numerical features describing cell nuclei from fine-needle aspiration (FNA) images, and a diagnosis (benign or malignant).
+- **Source and link:** [UCI Machine Learning Repository — Breast Cancer Wisconsin (Diagnostic)](https://archive.ics.uci.edu/dataset/17/breast-cancer-wisconsin-diagnostic).
+- **Collected by / citation:** Wolberg, W., Mangasarian, O., Street, N., & Street, W. (1993). *Breast Cancer Wisconsin (Diagnostic)* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5DW2B.
+- **Licence or terms of use:** Creative Commons Attribution 4.0 International (CC BY 4.0). The dataset may be shared, adapted, and reused with appropriate attribution to the original creators.
 
 The data files in this repository are a fixed copy provided for this
 course. Do not download replacement data and do not edit the data files.
