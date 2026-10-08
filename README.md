@@ -149,7 +149,7 @@ A reasonable working loop:
 3. Run your script from the project root and check that the output
    is sensible before trusting it.
 4. Save figures to `outputs/` with descriptive names, for example
-   `outputs/rainfall_by_month.png`.
+   `outputs/feature_distributions.png`.
 5. Record what you did and what you concluded in `ANALYSIS_LOG.md`.
 
 Resist the temptation to ask for the whole analysis at once. You are
@@ -217,8 +217,6 @@ have been added as a   collaborator — without this your work cannot be graded
 - `.venv/` does **not** appear in the repository on GitHub
 
 Keep the repository **Private**. Do not share it with other groups.
-
-## About the data
 
 ## About the data
 
